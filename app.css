@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;800;900&display=swap');
+*{
+     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 720px;
+    background-color: beige;
+    background: url(/istvan-hernek-z1t-Q7DxxEg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.Clock{
+    backdrop-filter: blur(30px);
+    border: 4px solid #5b8247;
+    width: 60rem;
+    height: 30rem;
+    border-radius: 50px;
+    color: #174302;
+    font-size: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.time{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.date{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: 400;
+}
+
+@media(max-width:859px){
+    .hh{
+        /* width: 4rem; */
+        font-size: 3rem;
+    }
+    .Clock{
+        backdrop-filter: blur(30px);
+        border: 4px solid #5b8247;
+        width: 40rem;
+        height: 30rem;
+        border-radius: 25px;
+        color: #174302;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
